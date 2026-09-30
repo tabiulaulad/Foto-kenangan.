@@ -2,20 +2,21 @@
     text-align: center;
     font-size:150%;
 }
-.pictures1{
-    text-align: center;
+.pictures1, .pictures1 {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
 }
-.pictures2{
-    text-align: center;
-}
-.img{
+   
+img{
     max-width: 100%;
     height: auto;
     display: block;
     margin: 10px auto;
     border-radius: 8px;
 }
-.body{
+body{
     padding: 15px;
     font-size: 16px;
     line-height: 1.6;
